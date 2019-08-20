@@ -1,5 +1,10 @@
 import React from 'react'
+import Home from '../components/home/home.jsx'
+
 
 export const App = () => (
-    <h1>hello strech usin jsx</h1>
+    <div>
+        <Home />
+    </div>
+
 )
