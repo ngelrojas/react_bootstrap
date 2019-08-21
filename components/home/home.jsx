@@ -2,16 +2,15 @@ import React from 'react'
 import './scss/home.scss'
 
 
-class Home extends React.Component
-{
-    render(){
-        return(
-            <div className="container-main">
-                <h1>home Componen</h1>
-            </div>
-        ) 
-    }
+const Home = () => {
+    return(
+        <div className="container-main">
+            <header>header</header>
+            <main>Main</main>
+            <footer>footer</footer>
+        </div>
+    )
 }
-
 export default Home
+
 
