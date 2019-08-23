@@ -1,0 +1,105 @@
+.navmenu__wrapp{
+    text-align: center;
+    display: inline-flex;
+    width: 100%;
+}
+.navmenu__wrapp-logo{
+    width: 35%;
+    margin-top: 10px;
+}
+.navmenu__wrapper-menu{
+    display: inline-flex;
+    width: 50%;
+    margin-top: 1%;
+}
+.navmenu__wrapper-menu > li{
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.navmenu__wrapper-menu > li > a{
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: bold;
+}
+.navmenu__wrapp-lang{
+    width: 20%;
+}
+.navmenu__wrapp-tutorials{
+    .dropdown .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: white;
+      padding: 0px 0px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    .dropdown {
+      float: left;
+      overflow: hidden;
+      height: 2vw;
+      a{
+        text-decoration: none;
+        font-weight: bold; 
+      }
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      top: 57px;
+    }
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 19px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #a20b0b;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #a20b0b;
+  color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

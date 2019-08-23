@@ -1,3 +1,9 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato';
+}
 .container-main{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -5,9 +11,13 @@
     
 }
 
+header{
+    text-align: center;
+}
+
 header, footer{
     grid-column: 1 / span 8;
-    background-color: red;
+    background-color: #a20b0b;
 }
 
 main{
@@ -16,4 +26,4 @@ main{
 }
 
 
-@import 'mqhome.scss';
+@import 'theme_query.scss';

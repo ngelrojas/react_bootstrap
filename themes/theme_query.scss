@@ -5,27 +5,26 @@ $smarthphone: 480px;
 $smallsmarthphone: 320px;
 
 @media screen and (max-width: $desktop){
-    body{
-        border: 10px solid red; 
+    .container-main{ 
     }
 }
 
 
 @media screen and (max-width: $tablet){
-    body{
-        border: 10px solid green; 
+    .container-main{
+        display: block; 
     }
 }
 
 
 @media screen and (max-width: $smarthphone){
-    body{
-        border: 10px solid blue; 
+    .container-main{
+        display: block; 
     }
 }
 
 @media screen and (max-width: $smallsmarthphone){
-    body{
-        border: 10px solid violet; 
+    .container-main{
+        display: block; 
     }
 }
