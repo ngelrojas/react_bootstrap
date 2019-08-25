@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import BurgerMenu from './burger_menu/burger_menu.jsx'
 import './scss/navMenu.scss'
 
 
@@ -7,9 +8,9 @@ const NavMenu = () => {
     return(
         <nav className="navmenu__wrapp">
             <div className="navmenu__wrapp-logo">
-                <Link to="/"><h1>LOGO AR</h1></Link>
+                <Link to="/"><h1 className="navmenu__wrapp-logoar">AR</h1></Link>
             </div>
-            
+            <BurgerMenu></BurgerMenu>
             <ul className="navmenu__wrapper-menu">
                 <li><Link to="/">Home</Link></li>
                 <li>
@@ -19,9 +20,9 @@ const NavMenu = () => {
                                 Tutorials
                             </Link>
                             <div className="dropdown-content">
-                                <Link to="#">Python</Link>
-                                <Link to="#">C++</Link>
-                                <Link to="#">Clojure</Link>
+                                <Link to="categories/python">Python</Link>
+                                <Link to="categories/cpp">C++</Link>
+                                <Link to="categories/clojure">Clojure</Link>
                             </div>
                         </div>
                     </div>

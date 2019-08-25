@@ -1,10 +1,14 @@
 import React from 'react'
-// import './scss/home.scss'
+import Article from '../post/article.jsx'
 
 
 const Home = () => {
     return(  
-        <main>Main content home</main> 
+        <main>
+            <section>
+                <Article />
+            </section>
+        </main> 
     )
 }
 export default Home

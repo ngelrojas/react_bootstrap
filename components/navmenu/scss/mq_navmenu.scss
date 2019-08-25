@@ -1,0 +1,71 @@
+/* Breakpoints */
+$desktop: 1023px;
+$tablet: 767px;
+$smarthphone: 480px;
+$smallsmarthphone: 320px;
+
+@media screen and (max-width: $desktop){
+    .navmenu__wrapp-logo{
+        margin-top: 4px; 
+    }
+    .navmenu__wrapp-logoar{
+        font-size: 1.5rem; 
+   }
+    .dropdown .dropbtn {
+      padding: 5px 16px; 
+    }
+   .navmenu__wrapp-tutorials{
+        
+        .dropdown-content {
+          
+          top: 30px;
+        }
+    }
+}
+
+
+@media screen and (max-width: $tablet){
+    .navmenu__wrapp-logo{
+        margin-top: 6px; 
+    }
+    .navmenu__wrapper-menu{
+        width: 80%; 
+    }
+}
+
+
+@media screen and (max-width: $smarthphone){
+   .navmenu__wrapper-burger_menu{
+        display: block;
+        width: 40%;
+        color: #ffffff; 
+   }
+   .navmenu__wrapper-burger_menu > summary{margin-top: 7%;}
+
+   .navmenu__wrapper-burger_menu > summary::-webkit-details-marker{display: none;}
+        
+   .navmenu__wrapper-burger_menu > ol li{
+        margin-top: 20%;
+        margin-bottom: 20%;
+        a{
+            text-decoration: none;
+            color: #ffffff; 
+        }  
+    }
+   .navmenu__wrapper-burger_menu details summary{color: #ffffff;}
+
+   .navmenu__wrapper-burger_menu details ol li{margin-top:15%; margin-bottom:15%;}
+
+   .navmenu__wrapper-burger_menu details > summary::-webkit-details-marker{display: none;}
+
+   .navmenu__wrapper-menu{
+        display: none; 
+   }
+   .navmenu__wrapp-tutorials .dropdown{
+        height: 5vw; 
+   }
+}
+
+@media screen and (max-width: $smallsmarthphone){
+    
+}
