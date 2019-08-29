@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #eeeeee;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Lato', sans-serif;
@@ -7,7 +8,7 @@ h1, h2, h3, h4, h5, h6{
 .container-main{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 3vw 51vw 3vw;
+    grid-template-rows: 3vw auto 3vw;
     
 }
 
@@ -22,7 +23,6 @@ header, footer{
 
 main{
     grid-column: 2 / span 5;
-    background-color: gray;
 }
 
 

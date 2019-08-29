@@ -21,6 +21,14 @@ $smallsmarthphone: 320px;
     .container-main{
         display: block; 
     }
+    .home__section-articles{
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-top: 10%;
+        display: block;
+        padding-bottom: 2%;
+        overflow: hidden; 
+    }
 }
 
 @media screen and (max-width: $smallsmarthphone){

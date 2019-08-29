@@ -8,6 +8,7 @@ import Blog from '../components/blog/blog.jsx'
 import Contacts from '../components/contacts/contacts.jsx'
 import AboutMe from '../components/about/about_me.jsx'
 import NotFound from '../components/notfound/notfound.jsx'
+import Footer from '../components/footer/footer.jsx'
 
 
 export const App = () => (
@@ -27,7 +28,8 @@ export const App = () => (
 
             </Switch>
 
-            <footer>footer</footer>
+            <Footer />
+
         </Router> 
     </div>
 

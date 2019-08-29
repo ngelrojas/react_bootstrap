@@ -1,19 +1,4 @@
-.container-main{
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 3vw 51vw 3vw;
-    
+.home__section-articles{
+    display: inline;
 }
-
-header, footer{
-    grid-column: 1 / span 8;
-    background-color: red;
-}
-
-main{
-    grid-column: 2 / span 5;
-    background-color: gray;
-}
-
-
 @import 'mqhome.scss';

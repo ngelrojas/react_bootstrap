@@ -13,20 +13,20 @@ const BurgerMenu = () =>{
             <details>
                 <summary>Tutorials</summary>
                 <ol>
-                    <li><Link to="#">Python #1</Link></li>
-                    <li><Link to="#">Python #1</Link></li>
-                    <li><Link to="#">Python #1</Link></li>
+                    <li><Link to="/categories/python">Python</Link></li>
+                    <li><Link to="/categories/cpp">cpp</Link></li>
+                    <li><Link to="/categories/javascript">javascript</Link></li>
                 </ol>
             </details>
             </li> 
             <li>
-                <Link to="/">Blog</Link>
+                <Link to="/blog">Blog</Link>
             </li>
             <li>
-                <Link to="/">Contacts</Link>
+                <Link to="/cantacts">Contacts</Link>
             </li>
             <li>
-                <Link to="/">About Me</Link>
+                <Link to="/about-me">About Me</Link>
             </li>
         </ol>
     </details>

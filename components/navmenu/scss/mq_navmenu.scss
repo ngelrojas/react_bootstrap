@@ -5,6 +5,9 @@ $smarthphone: 480px;
 $smallsmarthphone: 320px;
 
 @media screen and (max-width: $desktop){
+    .navmenu__wrapp{
+       margin-bottom: 2%;
+    }
     .navmenu__wrapp-logo{
         margin-top: 4px; 
     }

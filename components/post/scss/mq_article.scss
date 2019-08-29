@@ -1,31 +1,28 @@
+
 /* Breakpoints */
 $desktop: 1023px;
 $tablet: 767px;
 $smarthphone: 480px;
 $smallsmarthphone: 320px;
 
+
 @media screen and (max-width: $desktop){
-    .container-main{ 
-    }
+    
 }
 
 
 @media screen and (max-width: $tablet){
-    .container-main{
-        display: block; 
-    }
+    
 }
 
 
 @media screen and (max-width: $smarthphone){
-    .container-main{
-        display: block;
-        background-color: #dddddd; 
-    }
+   .main-post{
+       max-width: 100%;
+       margin-bottom: 10%; 
+   } 
 }
 
 @media screen and (max-width: $smallsmarthphone){
-    .container-main{
-        display: block; 
-    }
+    
 }
